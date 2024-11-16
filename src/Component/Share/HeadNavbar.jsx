@@ -8,7 +8,7 @@ const HeadNavbar = () => {
         {/* Left Section */}
         <div className="flex items-center">
           <span className="mr-2">All courses 28% off for</span>
-          <a href="#" className="text-green-500 hover:underline">
+          <a href="#" className="text-green-500 hover:underline font-fontLearn">
             Liberian people’s.
           </a>
         </div>
