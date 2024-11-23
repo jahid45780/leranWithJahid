@@ -1,163 +1,91 @@
-const CardSlider = () => {
-    return (
-      <div className="min-h-screen bg-gray-900 flex justify-center items-center">
-        {/* Slider Container */}
-        <div className="relative w-full max-w-6xl px-4">
-          <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide">
-            {/* Card 1 */}
-            <div className="group snap-center bg-gray-800 p-5 w-[90%] sm:w-72 md:w-80 rounded-xl shadow-lg transform hover:scale-105 hover:rotate-1 transition-transform duration-300">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="Travel Tourism"
-                className="rounded-lg w-full"
-              />
-              <h3 className="mt-4 text-lg sm:text-xl font-bold text-white">
-                Travel Tourism
-              </h3>
-              <p className="mt-2 text-gray-400 text-sm sm:text-base">
-                Developed Rest API backend with Express and MongoDB for service
-                technology.
-              </p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                <span className="px-3 py-1 bg-blue-600 text-xs text-white rounded">
-                  React
-                </span>
-                <span className="px-3 py-1 bg-red-500 text-xs text-white rounded">
-                  Express
-                </span>
-                <span className="px-3 py-1 bg-green-500 text-xs text-white rounded">
-                  MongoDB
-                </span>
-                <span className="px-3 py-1 bg-yellow-500 text-xs text-white rounded">
-                  Firebase
-                </span>
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-coverflow';
+import { Pagination, EffectCoverflow } from 'swiper/modules';
+
+const ProjectCardSlider = () => {
+  const projects = [
+    {
+      title: 'Travel Tourism',
+      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
+      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
+      image: 'path/to/image1.png',
+      liveLink: '#',
+      codeLink: '#',
+      serverLink: '#'
+    },
+    {
+      title: 'Organic Food',
+      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
+      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
+      image: 'path/to/image2.png',
+      liveLink: '#',
+      codeLink: '#',
+      serverLink: '#'
+    },
+    {
+      title: 'Jewellery Shop',
+      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
+      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
+      image: 'path/to/image3.png',
+      liveLink: '#',
+      codeLink: '#',
+      serverLink: '#'
+    },
+    {
+      title: 'html ',
+      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
+      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
+      image: 'path/to/image3.png',
+      liveLink: '#',
+      codeLink: '#',
+      serverLink: '#'
+    }
+  ];
+
+  return (
+    <div className="w-full p-4">
+      <Swiper
+        modules={[Pagination, EffectCoverflow]}
+        effect="coverflow"
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={3}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={{ clickable: true }}
+        loop={true}
+        className="mySwiper"
+      >
+        {projects.map((project, index) => (
+          <SwiperSlide key={index}>
+            <div className="bg-gray-800 rounded-lg p-6 w-full max-w-sm mx-auto">
+              <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
+              <h3 className="text-white text-xl mb-2">{project.title}</h3>
+              <p className="text-gray-300 mb-4">{project.description}</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {project.tags.map((tag, idx) => (
+                  <span key={idx} className="text-xs bg-gray-700 text-white px-2 py-1 rounded">{tag}</span>
+                ))}
               </div>
-              <div className="flex justify-between items-center mt-4">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Live
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Code
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Server
-                </a>
-              </div>
-            </div>
-  
-            {/* Additional Cards (Card 2, Card 3) */}
-            <div className="group snap-center bg-gray-800 p-5 w-[90%] sm:w-72 md:w-80 rounded-xl shadow-lg transform hover:scale-105 hover:rotate-1 transition-transform duration-300">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="Organic Food"
-                className="rounded-lg w-full"
-              />
-              <h3 className="mt-4 text-lg sm:text-xl font-bold text-white">
-                Organic Food
-              </h3>
-              <p className="mt-2 text-gray-400 text-sm sm:text-base">
-                Developed Rest API backend with Express and MongoDB for service
-                technology.
-              </p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                <span className="px-3 py-1 bg-blue-600 text-xs text-white rounded">
-                  React
-                </span>
-                <span className="px-3 py-1 bg-red-500 text-xs text-white rounded">
-                  Express
-                </span>
-                <span className="px-3 py-1 bg-green-500 text-xs text-white rounded">
-                  MongoDB
-                </span>
-                <span className="px-3 py-1 bg-yellow-500 text-xs text-white rounded">
-                  Firebase
-                </span>
-              </div>
-              <div className="flex justify-between items-center mt-4">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Live
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Code
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Server
-                </a>
+              <div className="flex justify-between text-sm">
+                <a href={project.liveLink} className="text-blue-400">🔗 Live</a>
+                <a href={project.codeLink} className="text-blue-400">💻 Code Link</a>
+                <a href={project.serverLink} className="text-blue-400">🔗 Server Link</a>
               </div>
             </div>
-  
-            {/* Repeat structure for Card 3 */}
-            <div className="group snap-center bg-gray-800 p-5 w-[90%] sm:w-72 md:w-80 rounded-xl shadow-lg transform hover:scale-105 hover:rotate-1 transition-transform duration-300">
-              <img
-                src="https://via.placeholder.com/300x200"
-                alt="Jewellery Shop"
-                className="rounded-lg w-full"
-              />
-              <h3 className="mt-4 text-lg sm:text-xl font-bold text-white">
-                Jewellery Shop
-              </h3>
-              <p className="mt-2 text-gray-400 text-sm sm:text-base">
-                Developed Rest API backend with Express and MongoDB for service
-                technology.
-              </p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                <span className="px-3 py-1 bg-blue-600 text-xs text-white rounded">
-                  React
-                </span>
-                <span className="px-3 py-1 bg-red-500 text-xs text-white rounded">
-                  Express
-                </span>
-                <span className="px-3 py-1 bg-green-500 text-xs text-white rounded">
-                  MongoDB
-                </span>
-                <span className="px-3 py-1 bg-yellow-500 text-xs text-white rounded">
-                  Firebase
-                </span>
-              </div>
-              <div className="flex justify-between items-center mt-4">
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Live
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Code
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 text-sm font-medium"
-                >
-                  Server
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  };
-  
-  export default CardSlider;
-  
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  );
+};
+
+export default ProjectCardSlider;
