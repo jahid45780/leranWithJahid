@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -8,45 +7,45 @@ import { Pagination, EffectCoverflow } from 'swiper/modules';
 const ProjectCardSlider = () => {
   const projects = [
     {
-      title: 'Travel Tourism',
-      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
-      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
-      image: 'path/to/image1.png',
-      liveLink: '#',
-      codeLink: '#',
-      serverLink: '#'
+      title:  ' CS50s Introduction ' ,
+      description: 'An introduction to computer science concepts, covering algorithms, data structures, web development, and more. Great for beginners.',
+      tags: ['JavaScript', "Python","Java","C++", "C#","PHP"],
+      image: 'https://i.ibb.co.com/1LPJ04Y/designers-using-3d-printer.jpg',
+      LERAN: '🙌',
+      Price: '$8500',
+      SKILL: '🙌'
     },
     {
-      title: 'Organic Food',
-      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
-      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
-      image: 'path/to/image2.png',
-      liveLink: '#',
-      codeLink: '#',
-      serverLink: '#'
+      title: 'The Complete JavaScript Course',
+      description: 'A comprehensive guide to learning JavaScript, including modern ES6+ concepts, DOM manipulation, and building projects.',
+      tags: ["Ruby"," Go (Golang)","TypeScript","Swift","Kotlin", "Rust"],
+      image: 'https://static.semrush.com/blog/uploads/media/bd/39/bd3945cff339fe5cd96c069ce6e5f1f3/javascript-rendering.svg',
+      LERAN: '🙌',
+      Price: '$2500',
+      SKILL: '🙌'
     },
     {
-      title: 'Jewellery Shop',
-      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
-      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
-      image: 'path/to/image3.png',
-      liveLink: '#',
-      codeLink: '#',
-      serverLink: '#'
+      title: 'Python for Everybody',
+      description: 'Focuses on Python programming and its applications in data analysis and web development. Ideal for beginners in programming.',
+      tags: ["Tailwind CSS","React","Angular","Vue.js", "Next.js","Svelte"],
+      image: 'https://datascientest.com/en/files/2024/06/Python-Variables.jpg',
+      LERAN: '🙌',
+      Price: '$3500',
+      SKILL: '🙌'
     },
     {
-      title: 'html ',
-      description: 'Developed Rest API backend with Express and Mongo DB for service technology...',
-      tags: ['React', 'React Router', 'Node', 'Express', 'Firebase', 'MongoDb', 'React Bootstrap'],
-      image: 'path/to/image3.png',
-      liveLink: '#',
-      codeLink: '#',
-      serverLink: '#'
+      title: 'The Odin Project',
+      description: 'A full-stack web development curriculum, including HTML, CSS, JavaScript, Git, Node.js, and React. Project-based and highly practical.',
+      tags: ["Docker", "Kubernetes","Git", "GitHub", " Jenkins","CI/CD", "AWS"],
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyuZwQ_8i0FP6vLn_PTgV19Oq2QrBqRFDtRA&s',
+      LERAN: '🙌',
+      Price: '$9800',
+      SKILL: '🙌'
     }
   ];
 
   return (
-    <div className="w-full p-4">
+    <div className="w-full bg-green-100 p-4">
       <Swiper
         modules={[Pagination, EffectCoverflow]}
         effect="coverflow"
@@ -66,9 +65,9 @@ const ProjectCardSlider = () => {
       >
         {projects.map((project, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-gray-800 rounded-lg p-6 w-full max-w-sm mx-auto">
-              <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
-              <h3 className="text-white text-xl mb-2">{project.title}</h3>
+            <div className="bg-gray-500 rounded-lg p-6 w-full max-w-sm mx-auto">
+              <img src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-full  " />
+              <h3 className=" text-xl font-fontTitle font-bold text-white mb-2">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag, idx) => (
@@ -76,9 +75,9 @@ const ProjectCardSlider = () => {
                 ))}
               </div>
               <div className="flex justify-between text-sm">
-                <a href={project.liveLink} className="text-blue-400">🔗 Live</a>
-                <a href={project.codeLink} className="text-blue-400">💻 Code Link</a>
-                <a href={project.serverLink} className="text-blue-400">🔗 Server Link</a>
+                <a href={project.liveLink} className="text-3xl"> 🙌 </a>
+                <a href={project.codeLink} className="text-black font-fontLearn font-black text-5xl"> {project.Price} </a>
+                <a href={project.serverLink} className="text-3xl ">🙌</a>
               </div>
             </div>
           </SwiperSlide>
@@ -89,3 +88,5 @@ const ProjectCardSlider = () => {
 };
 
 export default ProjectCardSlider;
+
+
