@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/ComputerProgrammer.jpg/675px-ComputerProgrammer.jpg",
+    "title": "Programming Fundamentals",
+    "price": 29.99,
+    "detail": "Comprehensive guide covering algebra, geometry, and calculus."
+  },
+  {
+    "id": 2,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOrQSWd6n1rhOE3rKLZivxYom5V5x9L8sLA&s",
+    "title": "Physics Fundamentals",
+    "price": 35.50,
+    "detail": "Detailed explanations of mechanics, optics, and thermodynamics."
+  },
+  {
+    "id": 3,
+    "img": "https://as2.ftcdn.net/v2/jpg/06/08/11/43/1000_F_608114361_x2PUbJaBQEyAn8Vk6TO1kyYUPCaIgw58.jpg",
+    "title": "Modern Chemistry",
+    "price": 27.99,
+    "detail": "Explores organic, inorganic, and physical chemistry topics."
+  },
+  {
+    "id": 4,
+    "img": "https://yt3.googleusercontent.com/QCTSp9bRB7-Q_Rk3d98XdRDOK91UjbAnczZnChed_ml1HUbU8YtDpdV8sW4L4lCNF0Cvari3HQ=s900-c-k-c0x00ffffff-no-rj",
+    "title": "Biology Basics",
+    "price": 24.95,
+    "detail": "Introduction to cells, genetics, and human anatomy."
+  },
+  {
+    "id": 5,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2FJ8_IYMknlQMgRvLgWV_PsuFsS4Vb639zA&s",
+    "title": "World History Overview",
+    "price": 31.25,
+    "detail": "Covers major events from ancient civilizations to modern times."
+  },
+  {
+    "id": 6,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvS7ws051EuKy_TekcyXiVQzxROqiNhpmF5Q&s",
+    "title": "Geography Insights",
+    "price": 22.99,
+    "detail": "Focuses on physical, political, and economic geography."
+  },
+  {
+    "id": 7,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUztT2GlIU6zcmNBXzupxaFiMYgKmxMsWYJA&s",
+    "title": "Computer Science Basics",
+    "price": 40.00,
+    "detail": "Programming, data structures, and algorithms explained."
+  },
+  {
+    "id": 8,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsVxvIgNEFNxGeWmVYN52GQd-g1VDzLkYNrg&s",
+    "title": "English Literature Classics",
+    "price": 19.99,
+    "detail": "Analyzes famous works from Shakespeare, Dickens, and more."
+  },
+  {
+    "id": 9,
+    "img": "https://www.proalley.com/blog/content/images/2023/09/The-Art-of-Visual-Thinking---A-Guide-to-Graphic-Design-Thought-Process.jpg",
+    "title": "Art and Design Guide",
+    "price": 28.75,
+    "detail": "Learn the fundamentals of drawing, painting, and digital art."
+  },
+  {
+    "id": 10,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEH8dJEaPgd7kMOa8Z1RwOxvbkWcAFuq_PyQ&s",
+    "title": "Music Theory Essentials",
+    "price": 25.50,
+    "detail": "Understand scales, chords, and composition techniques."
+  }
+]
