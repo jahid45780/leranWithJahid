@@ -7,7 +7,7 @@ const HeadNavbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center p-2 text-sm">
         {/* Left Section */}
         <div className="flex items-center">
-          <span className="mr-2">All courses 28% off for</span>
+          <span className="mr-2">All SCM 28% off for</span>
           <a href="#" className="text-green-500 hover:underline font-fontLearn">
             Liberian people’s.
           </a>

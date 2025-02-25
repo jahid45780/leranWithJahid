@@ -18,7 +18,7 @@ const Navbar = () => {
           className="text-white text-3xl font-bold hover:text-yellow-400 transform transition-transform hover:animate-logo3d"
         >
          <p>
-         Learn <sub className=' text-sm text-red-600' >dev</sub>
+         Galaxy <sub className=' text-sm text-red-600' >SCM</sub>
          </p>
         </Link>
 
@@ -31,10 +31,10 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/about"
+            to="/blog"
             className="text-white text-lg transform hover:animate-link3d hover:text-yellow-400 transition-all duration-300"
           >
-            About
+            Blog
           </Link>
           <Link
             to="/services"
@@ -53,10 +53,10 @@ const Navbar = () => {
         {/* Sign In Button with Animation */}
         <div className="hidden md:flex">
           <Link
-            to="/signin"
+            to="/task"
             className="text-white bg-blue-600 px-5 py-2 rounded-lg hover:bg-blue-700 transform hover:translate-z-8 hover:rotate-y-6 transition-transform duration-300"
           >
-            Sign In
+            Task Update
           </Link>
         </div>
 
@@ -108,11 +108,11 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/blog"
               className="text-white text-lg hover:text-yellow-400 transform hover:translate-z-6 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
-              About
+              Blog
             </Link>
             <Link
               to="/services"
@@ -129,11 +129,11 @@ const Navbar = () => {
               Contact
             </Link>
             <Link
-              to="/signin"
+              to="/task"
               className="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transform hover:translate-z-6 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
-              Sign In
+              Task Update
             </Link>
           </div>
         </div>
