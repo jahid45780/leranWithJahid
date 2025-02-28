@@ -1,9 +1,10 @@
+import PhotoGallery from "./PhotoGallery";
 
 
 const Blog = () => {
     return (
-        <div>
-            jj
+        <div className=" bg-green-100" >
+            <PhotoGallery/>
         </div>
     );
 };
