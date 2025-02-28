@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const images = [
-  { src: "https://i.ibb.co.com/gLD7VSQn/Imported-Photo-751297728-002987.jpg", title: "Sunset View", description: "A beautiful sunset over the horizon, casting warm hues across the sky." },
-  { src: "https://source.unsplash.com/random/400x300?sig=2", title: "Mountain Peak", description: "A breathtaking view of a towering mountain peak covered in snow." },
+  { src: "https://i.ibb.co.com/gLD7VSQn/Imported-Photo-751297728-002987.jpg", title: "Nice Day", description: "Bite Into Happiness: Today's Lunch Special" },
+  { src: "https://i.ibb.co.com/qYChVbWk/4wHIOaUr.jpg", title: "Lunch Break Bliss", description: "Lunchtime Magic: A Feast for the Senses" },
   { src: "https://source.unsplash.com/random/400x300?sig=3", title: "Forest Path", description: "A serene path winding through a lush green forest, perfect for a peaceful walk." },
   { src: "https://source.unsplash.com/random/400x300?sig=4", title: "City Lights", description: "A dazzling cityscape illuminated by vibrant neon lights at night." },
   { src: "https://source.unsplash.com/random/400x300?sig=5", title: "Ocean Waves", description: "Gentle ocean waves lapping against the sandy shore, a true paradise." },
