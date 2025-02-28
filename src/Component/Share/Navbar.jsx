@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900 p-6 shadow-lg transform transition-transform duration-500 hover:scale-105 hover:rotate-0 perspective-500">
+    <nav className="bg-gradient-to-r from-blue-900 via-gray-900 to-black p-6 shadow-lg transform transition-transform duration-500 hover:scale-105 hover:rotate-0 perspective-500">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo with 3D Hover Animation */}
         <Link
@@ -136,6 +136,7 @@ const Navbar = () => {
               Task Update
             </Link>
           </div>
+          
         </div>
       )}
     </nav>

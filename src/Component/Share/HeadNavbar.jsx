@@ -3,7 +3,7 @@ import { MdAttachEmail } from "react-icons/md";
 const HeadNavbar = () => {
     return (
         <div>
-             <div className="bg-gray-600 text-white py-3">
+             <div className="bg-gradient-to-r from-blue-800 via-gray-900 to-black text-white py-3">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-2 text-sm">
         {/* Left Section */}
         <div className="flex items-center">
