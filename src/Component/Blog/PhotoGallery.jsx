@@ -3,15 +3,15 @@ import { useState } from "react";
 const images = [
   { src: "https://i.ibb.co.com/gLD7VSQn/Imported-Photo-751297728-002987.jpg", title: "Nice Day", description: "Bite Into Happiness: Today's Lunch Special" },
   { src: "https://i.ibb.co.com/qYChVbWk/4wHIOaUr.jpg", title: "Lunch Break Bliss", description: "Lunchtime Magic: A Feast for the Senses" },
-  { src: "https://source.unsplash.com/random/400x300?sig=3", title: "Forest Path", description: "A serene path winding through a lush green forest, perfect for a peaceful walk." },
-  { src: "https://source.unsplash.com/random/400x300?sig=4", title: "City Lights", description: "A dazzling cityscape illuminated by vibrant neon lights at night." },
-  { src: "https://source.unsplash.com/random/400x300?sig=5", title: "Ocean Waves", description: "Gentle ocean waves lapping against the sandy shore, a true paradise." },
-  { src: "https://source.unsplash.com/random/400x300?sig=6", title: "Desert Dunes", description: "Golden sand dunes stretching endlessly under a clear blue sky." },
-  { src: "https://source.unsplash.com/random/400x300?sig=7", title: "Snowy Mountains", description: "Majestic snow-covered mountains standing tall in the distance." },
-  { src: "https://source.unsplash.com/random/400x300?sig=8", title: "Green Fields", description: "Vast green fields dotted with wildflowers swaying in the breeze." },
-  { src: "https://source.unsplash.com/random/400x300?sig=9", title: "3D Nature Scene", description: "A stunning 3D-rendered nature scene with ultra-realistic details." },
-  { src: "https://source.unsplash.com/random/400x300?sig=10", title: "Futuristic City", description: "A mesmerizing 3D-rendered futuristic city skyline with flying cars." },
-  { src: "https://source.unsplash.com/random/400x300?sig=11", title: "Fantasy Landscape", description: "A dreamy 3D-rendered fantasy landscape with floating islands." },
+  { src: "https://i.ibb.co.com/gFMp7s3j/mJn52j-w.jpg", title: "Forest Path", description: "A serene path winding through a lush green forest, perfect for a peaceful walk." },
+  { src: "https://i.ibb.co.com/9k3Q7tgp/Swg7-atC.jpg", title: "City Lights", description: "A dazzling cityscape illuminated by vibrant neon lights at night." },
+  { src: "https://i.ibb.co.com/DHqzTYGy/oLlpnXQM.jpg", title: "Ocean Waves", description: "Gentle ocean waves lapping against the sandy shore, a true paradise." },
+  { src: "https://i.ibb.co.com/jPDHXpCp/qzkzf0og.jpg", title: "Desert Dunes", description: "Golden sand dunes stretching endlessly under a clear blue sky." },
+  { src: "https://i.ibb.co.com/Wv66Hp8m/Q-vWVm0d.jpg", title: "Snowy Mountains", description: "Majestic snow-covered mountains standing tall in the distance." },
+  { src: "https://i.ibb.co.com/fVc01p7k/zGddr0BQ.jpg", title: "Green Fields", description: "Vast green fields dotted with wildflowers swaying in the breeze." },
+  { src: "https://i.ibb.co.com/5XvyG7mm/4LruAyeq.jpg", title: "3D Nature Scene", description: "A stunning 3D-rendered nature scene with ultra-realistic details." },
+  { src: "https://i.ibb.co.com/n8V66XPt/yI2soB7v.jpg", title: "Futuristic City", description: "A mesmerizing 3D-rendered futuristic city skyline with flying cars." },
+  { src: "https://i.ibb.co.com/Kjc6JJM9/MqtPkr6s.jpg", title: "Fantasy Landscape", description: "A dreamy 3D-rendered fantasy landscape with floating islands." },
 ];
 
 export default function PhotoGallery() {
