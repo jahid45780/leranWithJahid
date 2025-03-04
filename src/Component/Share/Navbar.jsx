@@ -48,6 +48,15 @@ const Navbar = () => {
           >
             Contact
           </Link>
+
+
+          <Link
+            to="/about"
+            className="text-white text-lg transform hover:animate-link3d hover:text-yellow-400 transition-all duration-300"
+          >
+            About Us
+          </Link>
+
         </div>
 
         {/* Sign In Button with Animation */}
@@ -128,6 +137,14 @@ const Navbar = () => {
             >
               Contact
             </Link>
+
+            <Link
+            to="/about"
+            className="text-white text-lg transform hover:animate-link3d hover:text-yellow-400 transition-all duration-300"
+          >
+            About Us
+          </Link>
+
             <Link
               to="/task"
               className="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transform hover:translate-z-6 transition-all duration-300"

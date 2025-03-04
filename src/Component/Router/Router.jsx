@@ -7,6 +7,7 @@ import Blog from "../Blog/Blog";
 import Service from "../Service/Service";
 import Contact from "../Contact/Contact";
 import Task from "../Task/Task";
+import About from "../About/About";
 
  export const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ import Task from "../Task/Task";
         {
           path:'/task',
           element:<Task/>
+        },
+        {
+          path:'/about',
+          element:<About/>
         }
       ]
     },
