@@ -63,7 +63,7 @@ const About = () => {
         {
           name: "Israt Jahan",
           role: "Executive, SCM",
-          image: "/path-to-image/zakia.png",
+          image: "https://i.ibb.co.com/21JcFnY4/Screenshot-9.png",
         },
         {
           name: "Anika Ibnat",
@@ -73,57 +73,57 @@ const About = () => {
         {
           name: "Arif Hossen",
           role: "Executive, SCM",
-          image: "/path-to-image/maliha.png",
+          image: "https://i.ibb.co.com/27fKGNy0/Screenshot-10.png",
         },
         {
           name: "Rezwan Ahmed",
           role: "Executive, SCM",
-          image: "/path-to-image/faisal.png",
+          image: "https://i.ibb.co.com/MkGJ53bV/Screenshot-11.png",
         },
         {
           name: "Md. Ibrahim Mia",
           role: "Sales Executive",
-          image: "/path-to-image/nasrin.png",
+          image: "https://i.ibb.co.com/F4QbsV8P/Screenshot-12.png",
         },
         {
           name: "Sadikur Rahman Lelin",
           role: "Sales Executive",
-          image: "/path-to-image/adnan.png",
+          image: "https://i.ibb.co.com/RkXrH66T/Screenshot-13.png",
         },
         {
           name: "Rony Molla",
           role: "Sales Executive",
-          image: "/path-to-image/sadia.png",
+          image: "https://i.ibb.co.com/23HJJnRc/Screenshot-14.png",
         },
         {
           name: "Md Yeasin Hossen",
           role: "Sales Executive",
-          image: "/path-to-image/sakib.png",
+          image: "https://i.ibb.co.com/VWZkCMWB/Screenshot-15.png",
         },
         {
           name: "Humayun Kobir",
           role: "Sales Executive",
-          image: "/path-to-image/rubel.png",
+          image: "https://i.ibb.co.com/FLJFzw80/Screenshot-16.png",
         },
         {
           name: "Abdur Rahman Arshad",
           role: "Sales Executive",
-          image: "/path-to-image/mahmudul.png",
+          image: "https://i.ibb.co.com/Ps6KNjt8/Screenshot-17.png",
         },
         {
           name: "Md Jubayer Alam Ratul",
           role: "Sales Executive",
-          image: "/path-to-image/parveen.png",
+          image: "https://i.ibb.co.com/Pz5Sq9Bj/Screenshot-18.png",
         },
         {
           name: "Saiful Islam",
           role: "Sales Executive",
-          image: "/path-to-image/ehsan.png",
+          image: "https://i.ibb.co.com/G43BqJ4f/Screenshot-19.png",
         },
         {
           name: "Sabbir Ahmed Shakil",
           role: "Sales Executive",
-          image: "/path-to-image/tahsin.png",
+          image: "https://i.ibb.co.com/LzywtqwX/Screenshot-20.png",
         },
       ];
     return (
